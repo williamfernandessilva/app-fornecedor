@@ -1,0 +1,18 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "william",
+      "email": "willgsvs@hotmail.com",
+      "rg": "137.198.629-97",
+      "telefone": "(11)99786-5232"
+    },
+    {
+      "id": 2,
+      "name": "kaue",
+      "email": "kaue@gmail.com",
+      "rg": "73621423-2",
+      "telefone": "(11)87156-3112"
+    }
+  ]
+}
