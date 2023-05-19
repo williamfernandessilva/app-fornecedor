@@ -1,0 +1,20 @@
+{
+  "clients": [
+    {
+      "id": 2,
+      "name": "william",
+      "email": "willgsvs@hotmail.com",
+      "rg": "45717789890",
+      "telefone": "11908765449"
+    }
+  ],
+  "fornecedores": [
+    {
+      "id": 1,
+      "name": "rafael",
+      "email": "rafael@gmail.com",
+      "rg": "",
+      "telefone": "19908768361"
+    }
+  ]
+}
