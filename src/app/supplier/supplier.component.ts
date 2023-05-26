@@ -24,7 +24,8 @@ export class SupplierComponent  implements OnInit  {
       name : [''],
       email : [''],
       rg : [''],
-      telefone : ['']
+      telefone : [''],
+      sexo : [''],
 
     });
   }

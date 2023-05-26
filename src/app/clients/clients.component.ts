@@ -3,17 +3,21 @@ import { ClientService } from '../client.service';
 import { Client } from '../client';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { ThisReceiver } from '@angular/compiler';
+import { estados } from '../estados';
 
 @Component({
   selector: 'app-clients',
   templateUrl: './clients.component.html',
   styleUrls: ['./clients.component.css']
 })
-export class ClientsComponent implements OnInit {
+export class ClientsComponent {
 
+  estados = estados;
   clients: Client[] = [];
   isEditing : Boolean = false;
   formGroupClient : FormGroup;
+  ClientService: any;
+  estado: any;
 
 
   constructor(private clientService: ClientService,
@@ -23,7 +27,8 @@ export class ClientsComponent implements OnInit {
       name : [''],
       email : [''],
       rg : [''],
-      telefone : ['']
+      telefone : [''],
+      estado : ['']
 
     });
   }

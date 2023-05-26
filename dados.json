@@ -6,15 +6,39 @@
       "email": "willgsvs@hotmail.com",
       "rg": "45717789890",
       "telefone": "11908765449"
+    },
+    {
+      "id": 4,
+      "name": "",
+      "email": "",
+      "rg": "",
+      "telefone": "asdasd",
+      "estado": ""
+    },
+    {
+      "id": 5,
+      "name": "",
+      "email": "",
+      "rg": "",
+      "telefone": "",
+      "estado": ""
     }
   ],
   "fornecedores": [
     {
       "id": 1,
-      "name": "rafael",
-      "email": "rafael@gmail.com",
+      "name": "adsad",
+      "email": "adsada",
       "rg": "",
-      "telefone": "19908768361"
+      "telefone": "asdasd"
+    },
+    {
+      "id": 2,
+      "name": "",
+      "email": "",
+      "rg": "",
+      "telefone": "",
+      "sexo": "Masculino"
     }
   ]
 }

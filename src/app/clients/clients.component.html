@@ -43,25 +43,16 @@
   </div>
 
 </form>
-<div class="ol-8 m-auto">
-<input type="checkbox" name="areap" value="1" id="areap1"/>
-<label for="areap1">Compra</label>
-<input type="checkbox" name="areap" value="2" id="areap2"/>
-<label for="areap2">Venda</label>
+
+
+
+<div class="mb-3">
+  <label for="estado" class="form-label">Estado</label>
+  <select formControlName="estado" class="form-select" id="estado">
+    <option value="">Selecione um estado</option>
+    <option *ngFor="let estado of estados" [value]="estado.sigla">{{ estado.nome }}</option>
+  </select>
 </div>
-
-
-
-<br>
-
-<div>
-<input type="radio" name="sex" id="Masculino" checked="checked"/>
-<label for="Masculino">Masculino</label><br/>
-<input type="radio" name="sex" id="Feminino"/>
-<label for="Feminino">Feminino</label>
-</div>
-
-<br>
 
 <form>
 
@@ -74,6 +65,8 @@
       <th scope="col">Email</th>
       <th scope="col">Rg</th>
       <th scope="col">Telefone</th>
+      <th scope="col">Estado</th>
+
 
 
     </tr>
@@ -85,6 +78,7 @@
       <td>{{client.email}}</td>
       <td>{{client.rg}}</td>
       <td>{{client.telefone}}</td>
+      <td>{{client.estado}}</td>
 
 
 

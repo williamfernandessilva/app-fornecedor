@@ -4,4 +4,5 @@ export interface Client{
   email : string;
   rg : string;
   telefone : string;
-}
+  estado : string;
+};

@@ -36,25 +36,17 @@
 
   </div>
 
-</form>
-<div class="ol-8 m-auto">
-<input type="checkbox" name="areap" value="1" id="areap1"/>
-<label for="areap1">Compra</label>
-<input type="checkbox" name="areap" value="2" id="areap2"/>
-<label for="areap2">Venda</label>
+<div class="mb-3">
+  <label class="form-label">Sexo</label>
+    <div class="form-check">
+      <input type="radio" formControlName="sexo" class="form-check-input" id="sexo-masculino" value="Masculino">
+      <label for="sexo-masculino" class="form-check-label">Masculino</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" formControlName="sexo" class="form-check-input" id="sexo-feminino" value="Feminino">
+      <label for="sexo-feminino" class="form-check-label">Feminino</label>
+    </div>
 </div>
-
-
-
-<br>
-
-<div>
-<input type="radio" name="sex" id="Masculino" checked="checked"/>
-<label for="Masculino">Masculino</label><br/>
-<input type="radio" name="sex" id="Feminino"/>
-<label for="Feminino">Feminino</label>
-</div>
-
 <br>
 
 <form>
@@ -67,6 +59,8 @@
       <th scope="col">Nome</th>
       <th scope="col">Email</th>
       <th scope="col">Telefone</th>
+      <th scope="col">Masculino/Feminino</th>
+
 
 
     </tr>
@@ -77,6 +71,8 @@
       <td>{{Fornecedor.name}} </td>
       <td>{{Fornecedor.email}}</td>
       <td>{{Fornecedor.telefone}}</td>
+      <td>{{Fornecedor.sexo}}</td>
+
 
 
 
